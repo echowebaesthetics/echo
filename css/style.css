@@ -25,6 +25,7 @@ a {
     text-decoration: none;
 }
 
+
 h1, h2, h3, .title {
     font-family: var(--title-font);
     color: var(--main-text);
@@ -114,7 +115,7 @@ header {
 }
 
 .open, .close {
-    color: white;
+    color: var(--main-text);;
     display: none !important;
     cursor: pointer;
 }
@@ -170,10 +171,10 @@ header {
 
 footer {
     width: 100vw;
-    height: 40vw;
+    height: 200px;
     display: flex;
     flex-direction: column;
-    gap: 20%;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
@@ -186,7 +187,7 @@ footer h2 {
 
 
 footer h2 {
-    font-size: 8vw;
+    font-size: clamp(48px, 4.5vw, 100px);
 }
 
 footer a {

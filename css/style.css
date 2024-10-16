@@ -133,11 +133,11 @@ header {
     gap: 40px;
 }
 
-.header-p {
-    border: 2px solid white;
+.header-p2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 15px;
 }
 
 .open, .close {
@@ -165,11 +165,11 @@ header {
     width: 80%;
     display: flex;
     flex-direction: column;
-    font-size: 5vh;
+    font-size: 4vh;
+    align-items: flex-end;
 }
 
 .ham-menu > nav > a {
-    width: 100%;
     text-align: right;
 }
 
@@ -185,6 +185,10 @@ header {
 
     .header-p1 > nav{
         display: none;
+    }
+
+    .header-p2 {
+        padding: 0;
     }
 }
 
@@ -221,7 +225,7 @@ footer a {
 }
 
 .active-page {
-    text-decoration: underline;
+    font-style: italic;
 }
 
 .hero-section {
@@ -244,3 +248,24 @@ footer a {
     -ms-user-select: none; /* IE10+/Edge */
     user-select: none; /* Standard */
 }
+
+a {
+    position: relative;
+    padding: 0.5rem 0;
+  }
+  
+a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scale(0);
+    transition: transform 0.5s ease-in-out;
+    height: 2px;
+    width: 100%;
+    background-color: var(--main-text);
+  }
+  
+a:hover::before {
+    transform: translateX(-50%) scale(1);
+  }

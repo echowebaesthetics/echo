@@ -56,9 +56,11 @@ main {
 
   .about {
     gap: 50px;
+    padding-top: 250px;
   }
 
   .about-text, .me-container {
     width: 100%;
   }
+  
 }

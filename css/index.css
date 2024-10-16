@@ -109,7 +109,7 @@ h2 {
     display: flex;
     padding-left: 10vw;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
   }
 
   .main-content-3 p {

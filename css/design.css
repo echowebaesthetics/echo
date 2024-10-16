@@ -27,7 +27,7 @@ main {
   }
 
 .design-text {
-  width: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   gap: 20px;

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fi">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class="stick-header">
+        <div class="stick-header" aria-hidden="true">
             <div class="progress-container">
                 <div class="progress-bar" id="myBar"></div>
             </div>
@@ -19,15 +19,15 @@
         <header>
             <div class="header-p1">
                 <a class="title" href="../"><span class="arrow-logo" aria-label="logo">&gt;</span>&nbsp;echo</a>
-                <nav class="main-nav" aria-label="Nettisivu-menu">
-                    <a href="../fi" class="active-page">koti</a>
+                <nav class="main-nav" aria-label="Päänavikko">
+                    <a href="../fi" class="active-page" aria-current="true">koti</a>
                     <a class="hover-effect" href="/fi/design">netti- ja brändidesign</a>
                     <a href="/fi/about">tietoa meistä</a>
                     <a href="/fi/portfolio">portfolio</a>
                 </nav>
             </div>
             <div class="header-p2">
-                <nav class="small-nav" aria-label="Kieli- ja yhteydenottomenu">
+                <nav class="small-nav" aria-description="Kieli- ja yhteydenottonavikko">
                 <a class="lan" href="../" aria-label="kieli, englanti">en</a>
                 <a href="/fi/contact">ota yhteyttä</a>
                 <span class="material-symbols-outlined open active" aria-label="Avaa menu">
@@ -40,8 +40,8 @@
             </nav>
         </header>
         <div class="ham-menu">
-            <nav aria-label="Nettisivu-menu">
-                <a href="../fi" class="active-page">koti</a>
+            <nav aria-label="Päänavikko">
+                <a href="../fi" class="active-page" aria-current="true">koti</a>
                 <a href="/fi/design">netti- ja brändidesign</a>
                 <a href="/fi/about">tietoa meistä</a>
                 <a href="/fi/portfolio">portfolio</a>
@@ -50,7 +50,7 @@
         <main>
             <section class="landing">
                 <div class="landing-wrapper">
-                    <h1>&gt; echo</h1>
+                    <h1 aria-label="echo"><span>&gt;</span> <span class="typer" aria-hidden="true"></span></h1>
                     <div class="landing-main-text">
                     <h2>Nettisivu&nbsp;pienelle yrityksellesi. Tosi helposti.</h2>
                     <div class="desc-container">
@@ -69,7 +69,7 @@
                 </div>
             </section>
         </main>
-        <articöe class="main-content" id="learn-more">
+        <section class="main-content" id="learn-more">
                 <div class="wwd-desc">
                     <h2>Mitä teemme</h2>
                     <div class="wwd-text">
@@ -77,24 +77,24 @@
                     <p>Echon ydinarvo on saavutettavuus. Annamme sinulle työkalut kasvuun.</p>
                     </div>
                 </div>
-            </article>
-          <article class="main-content-3">
+        </section>
+          <section class="main-content-3">
             <h2>Kiinnostaako?</h2>
             <p>Lue lisää siitä, miten suunnittelemme.</p>
-            <a class="icon-span" href="/design"><span class="material-symbols-outlined">
+            <a class="icon-span" href="/design"><span class="material-symbols-outlined" aria-label="linkki">
                 arrow_forward
             </span>web&brand&nbsp;design</a>
             <p>Laita meille sähköpostia tai vaikka moi WhatsAppissa. Siirry digitaaliseen maailmaan kanssamme.</p>
-            <a class="icon-span" href="mailto:hello@echoweb.fi"><span class="material-symbols-outlined">
+            <a class="icon-span" href="mailto:hello@echoweb.fi"><span class="material-symbols-outlined" aria-label="sähköposti">
                 email
             </span>hello@echoweb.fi</a>
-            <a class="icon-span" href="https://wa.me/358465285343"><span class="material-symbols-outlined">
+            <a class="icon-span" href="https://wa.me/358465285343"><span class="material-symbols-outlined" aria-label="linkki">
                 link
             </span>Whatsapp</a>
-            <a class="icon-span"><span class="material-symbols-outlined">
+            <a class="icon-span"><span class="material-symbols-outlined" aria-label="linkki">
                 link
             </span>Twitter</a>
-        </article>
+          </section>
         <footer>
             <h2><span aria-label="logo">&gt;</span> echo</h2>
             <p>&copy; echo web aesthetics</p>
@@ -102,6 +102,7 @@
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+        <script type="module" src="../js/script.js"></script>
         <script type="module" src="../js/menu.js"></script>
     </body>
 </html>

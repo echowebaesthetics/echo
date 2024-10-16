@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
@@ -23,8 +23,8 @@
         </div>
         <header>
             <div class="header-p1">
-                <a class="title" href="../"><span class="arrow-logo">&gt;</span>&nbsp;echo</a>
-                <nav class="main-nav">
+                <a class="title" href="../"><span class="arrow-logo" aria-label="logo">&gt;</span>&nbsp;echo</a>
+                <nav class="main-nav" aria-description="Webpage navigation">
                     <a href="../">home</a>
                     <a href="/design">web&brand design</a>
                     <a href="/about">about us</a>
@@ -32,19 +32,19 @@
                 </nav>
             </div>
             <div class="header-p2">
-                <nav class="small-nav">
-                <a class="lan" href="/fi/contact">fi</a>
-                <a href="/contact" class="active-page">contact</a>
-                <span class="material-symbols-outlined open active">
+                <nav class="small-nav" aria-description="Language and contact navigation">
+                <a class="lan" href="/fi/design" aria-label="language, Finnish">fi</a>
+                <a href="/contact">contact</a>
+                <span class="material-symbols-outlined open active" aria-label="Open menu">
                     add
                     </span>
-                <span class="material-symbols-outlined close">
+                <span class="material-symbols-outlined close" aria-label="Close menu">
                     close
                     </span>
+                </nav>
             </div>
-            </nav>
         </header>
-        <div class="ham-menu">
+        <div class="ham-menu" aria-description="Webpage navigation">
             <nav>
                 <a href="../" class="active-page">home</a>
                 <a href="/design">web&brand design</a>
@@ -67,9 +67,9 @@
             </span>Twitter</a>
           </section>
         <footer>
-            <h2>&gt; echo</h2>
+            <h2><span aria-label="logo">&gt;</span> echo</h2>
             <p>&copy; echo web aesthetics</p>
-            <p>3473764-1</p>
+            <p aria-label="Business ID">3473764-1</p>
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
         <script type="module" src="../js/script.js"></script>

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="../css/style.css">
@@ -11,15 +11,15 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-        <div class="stick-header">
+        <div class="stick-header" aria-hidden="true">
             <div class="progress-container">
                 <div class="progress-bar" id="myBar"></div>
             </div>
         </div>
         <header>
             <div class="header-p1">
-                <a class="title" href="../"><span class="arrow-logo">&gt;</span>&nbsp;echo</a>
-                <nav class="main-nav">
+                <a class="title" href="../"><span class="arrow-logo" aria-label="logo">&gt;</span>&nbsp;echo</a>
+                <nav class="main-nav" aria-description="Webpage navigation">
                     <a href="../" class="active-page">home</a>
                     <a href="/design">web&brand design</a>
                     <a href="/about">about us</a>
@@ -27,19 +27,19 @@
                 </nav>
             </div>
             <div class="header-p2">
-                <nav class="small-nav">
-                <a class="lan" href="/fi">fi</a>
+                <nav class="small-nav" aria-description="Language and contact navigation">
+                <a class="lan" href="/fi" aria-label="language, Finnish">fi</a>
                 <a href="/contact">contact</a>
-                <span class="material-symbols-outlined open active">
+                <span class="material-symbols-outlined open active" aria-label="Open menu">
                     add
                     </span>
-                <span class="material-symbols-outlined close">
+                <span class="material-symbols-outlined close" aria-label="Close menu">
                     close
                     </span>
             </div>
             </nav>
         </header>
-        <div class="ham-menu">
+        <div class="ham-menu" aria-description="Webpage navigation">
             <nav>
                 <a href="../" class="active-page">home</a>
                 <a href="/design">web&brand design</a>
@@ -50,26 +50,26 @@
         <main>
             <section class="landing">
                 <div class="landing-wrapper">
-                    <h1>&gt; <span></span></h1>
+                    <h1 aria-label="echo"><span>&gt;</span> <span class="typer" aria-hidden="true"></span></h1>
                     <div class="landing-main-text">
                     <h2>A&nbsp;website for your small business. Just like that.</h2>
                     <div class="desc-container">
                     <p>Echo produces web solutions for individuals, small businesses and organizations. Elevate your business with tight-knit communication&nbsp;-&nbsp;and perfect your brand image.</p>
-                    <a class="icon-span" href="#learn-more"><span class="material-symbols-outlined">
+                    <a class="icon-span" href="#learn-more"><span class="material-symbols-outlined" aria-label="link">
                         arrow_forward
                     </span>learn more</a>
                     </div>
                     </div>
                 </div>
             </section>
-            <section class="hero-section">
+            <section class="hero-section" aria-hidden="true">
                 <div class="loop-container">
                     <div class="item">&nbsp;&gt; echo &gt; echo &gt; echo &gt; echo &gt; echo &gt; echo &gt; echo &gt; echo</div>
                     <div class="item">&nbsp;&gt; echo &gt; echo &gt; echo &gt; echo &gt; echo &gt; echo &gt; echo &gt; echo</div>
                 </div>
             </section>
         </main>
-        <section class="main-content" id="learn-more">
+        <article class="main-content" id="learn-more">
                 <div class="wwd-desc">
                     <h2>What we do</h2>
                     <div class="wwd-text">
@@ -77,11 +77,11 @@
                     <p>The thesis of Echo is accessibility. We want you to have the tools to grow.</p>
                     </div>
                 </div>
-        </section>
-          <section class="main-content-3">
+            </article>
+          <article class="main-content-3">
             <h2>Interested?</h2>
             <p>Learn more about how we approach design.</p>
-            <a class="icon-span" href="/design"><span class="material-symbols-outlined">
+            <a class="icon-span" href="/design"><span class="material-symbols-outlined" aria-label="link">
                 arrow_forward
             </span>web&brand design</a>
             <p>You can send us an email, or a simple hello on WhatsApp. Enter the digital world on your terms - with Echo.</p>
@@ -94,11 +94,11 @@
             <a class="icon-span"><span class="material-symbols-outlined">
                 link
             </span>Twitter</a>
-          </section>
+        </article>
         <footer>
-            <h2>&gt; echo</h2>
+            <h2><span aria-label="logo">&gt;</span> echo</h2>
             <p>&copy; echo web aesthetics</p>
-            <p>3473764-1</p>
+            <p aria-label="Business ID">3473764-1</p>
         </footer>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>

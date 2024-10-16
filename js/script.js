@@ -81,4 +81,4 @@ gsap.registerPlugin(TextPlugin);
 gsap.defaults({ease: "none"});
 
 const tl = gsap.timeline({repeat:Infinity, repeatDelay:1, yoyo:true});
-tl.to("h1 span", {duration: 3, text:"echo"})
+tl.to(".typer", {duration: 3, text:"echo"})

@@ -1,0 +1,64 @@
+main {
+    background-color: var(--main-bg);
+      width: 100vw;
+      height: 100vh;
+      padding-block: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+.about {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  gap: 20px;
+}
+
+  .about pre {
+    font-size: 3px;
+  }
+
+  .about p {
+    font-size: 1.5rem;
+  }
+
+.about-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.me-container {
+  width: 60%;
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.me {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+@media only screen and (max-width: 800px) {
+  .me-container {
+    flex-direction: column;
+  }
+
+  .about {
+    gap: 50px;
+  }
+
+  .about-text, .me-container {
+    width: 100%;
+  }
+}

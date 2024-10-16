@@ -26,18 +26,44 @@ a {
 }
 
 
-h1, h2, h3, .title {
+h1 {
+    font-size: 9vw;
+    line-height: .8em;
+    letter-spacing: -.2em;
     font-family: var(--title-font);
     color: var(--main-text);
-    font-weight: 500;
-    mix-blend-mode: difference !important;
+    font-weight: 500;  
+}
+
+h2 {
+  font-size: clamp(35px, 7vw, 60px);
+  line-height: .9em;
+  letter-spacing: -.06em;
+  font-family: var(--text-font);
+  color: var(--main-text);
+  font-weight: 500;  
+}
+
+h3 {
+    font-size: clamp(25px, 6vw, 40px);
+    line-height: .9em;
+    letter-spacing: -.06em;
+    font-family: var(--text-font);
+    color: var(--main-text);
+    font-weight: 500;  
+  }
+
+
+.title {
+    font-family: var(--title-font);
+    color: var(--main-text);
+    font-weight: 500;  
 }
 
 p, a {
     font-family: var(--text-font);
     color: var(--main-text);
-    letter-spacing: -1px;
-    mix-blend-mode: difference !important;
+    letter-spacing: -1.2px;
 }
 
 nav {
@@ -192,4 +218,29 @@ footer h2 {
 
 footer a {
     z-index: 999;
+}
+
+.active-page {
+    text-decoration: underline;
+}
+
+.hero-section {
+    min-width: 100vw;
+    overflow: hidden;
+    display: flex;
+    min-height: 15vh;
+}
+
+.loop-container {
+    white-space: nowrap;
+    font-weight: 100;
+    font-size: 80px;
+    color: var(--main-text);
+    font-family: var(--title-font);
+    letter-spacing: -.2em;
+    /* transform: rotate(7deg); */
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }

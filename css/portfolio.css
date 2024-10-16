@@ -1,0 +1,46 @@
+main {
+    background-color: var(--main-bg);
+      width: 100vw;
+      height: 100vh;
+      padding-block: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+  
+.portfolio {
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: right;
+  gap: 20px;
+}
+
+  .portfolio p {
+    font-size: 1.5rem;
+  }
+
+.website-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info p {
+    font-size: 1rem;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+    filter: invert(49%) sepia(83%) saturate(0%) hue-rotate(295deg) brightness(100%) contrast(89%);
+}
+
+.icon-span {
+    width: 100%;
+    justify-content: flex-end;
+    gap: 2px;
+}

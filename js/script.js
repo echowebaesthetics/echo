@@ -1,8 +1,4 @@
- // use a script tag or an external JS file
- document.addEventListener("DOMContentLoaded", (event) => {
-  gsap.registerPlugin(Flip,ScrollTrigger,Observer,ScrollToPlugin,MotionPathPlugin,TextPlugin,RoughEase,ExpoScaleEase,CustomEase)
-  // gsap code here!
- });
+
  class LoopingElement {
     constructor(element, currentTranslation, speed) {
         this.element = element;

@@ -147,7 +147,7 @@ header {
 }
 
 .ham-menu {
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
     width: 100vw;
     top: 80px;
     transform: translateX(100%);
@@ -161,12 +161,12 @@ header {
 }
 
 .ham-menu > nav {
-    height: 50%;
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    font-size: 4vh;
     align-items: flex-end;
+    font-size: clamp(25px, 5vh, 40px);
 }
 
 .ham-menu > nav > a {
@@ -190,13 +190,13 @@ header {
     .header-p2 {
         padding: 0;
     }
+
 }
 
 @media only screen and (min-width: 800px) {
     .ham-menu {
         display: none;
     }
-
 }
 
 footer {

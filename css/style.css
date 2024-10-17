@@ -230,12 +230,13 @@ footer a {
 }
 
 .hero-section {
-    min-width: 100vw;
+    width: 100vw;
     display: flex;
     min-height: 15vh;
 }
 
 .loop-container {
+    width: 100vw;
     white-space: nowrap;
     font-weight: 100;
     font-size: 80px;

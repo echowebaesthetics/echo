@@ -1,7 +1,7 @@
 main {
     background-color: var(--main-bg);
       width: 100vw;
-      height: 100vh;
+      min-height: 100vh;
       padding-block: 80px;
       display: flex;
       flex-direction: column;
@@ -23,7 +23,7 @@ main {
   }
 
   .about p {
-    font-size: 1.5rem;
+    font-size: clamp(20px, 4vw, 30px);
   }
 
 .about-text {

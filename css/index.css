@@ -8,6 +8,11 @@ main {
     justify-content: center;
 }
 
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .landing {
     height: 100%;
     width: 80vw;

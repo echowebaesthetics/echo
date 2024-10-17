@@ -1,0 +1,138 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://echoweb.fi/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>1.00</priority>
+  <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/design/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/design/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/design"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/about/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/about/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/about/"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/portfolio/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/portfolio/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/portfolio/"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/fi/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>1.00</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/contact/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/contact/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/contact/"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/fi/design/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/design/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/design/"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/fi/portfolio/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/portfolio/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/portfolio/"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/fi/about/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/about/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/about/"/>
+</url>
+<url>
+  <loc>https://echoweb.fi/fi/contact/</loc>
+  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="fi"
+               href="https://echoweb.fi/fi/contact/"/>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://echoweb.fi/contact/"/>
+</url>
+</urlset>

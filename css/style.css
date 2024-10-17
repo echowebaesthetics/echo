@@ -6,7 +6,6 @@
 
 html {
     scroll-behavior: smooth;
-    overflow-x: hidden;
   }
 
 :root {
@@ -228,28 +227,6 @@ footer a {
 .active-page {
     font-style: italic;
 }
-
-.hero-section {
-    width: 100vw;
-    display: flex;
-    min-height: 15vh;
-}
-
-.loop-container {
-    width: 100vw;
-    white-space: nowrap;
-    font-weight: 100;
-    font-size: 80px;
-    color: var(--main-text);
-    font-family: var(--title-font);
-    letter-spacing: -.2em;
-    /* transform: rotate(7deg); */
-    -webkit-user-select: none; /* Safari */        
-    -moz-user-select: none; /* Firefox */
-    -ms-user-select: none; /* IE10+/Edge */
-    user-select: none; /* Standard */
-}
-
 a {
     position: relative;
     padding: 0.5rem 0;

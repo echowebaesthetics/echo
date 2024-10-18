@@ -8,7 +8,7 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
   <loc>https://echoweb.fi/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>1.00</priority>
   <xhtml:link
                rel="alternate"
@@ -21,7 +21,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/design/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -34,7 +34,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/about/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -47,7 +47,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/portfolio/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -60,7 +60,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/fi/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>1.00</priority>
     <xhtml:link
                rel="alternate"
@@ -73,7 +73,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/contact/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -86,7 +86,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/fi/design/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -99,7 +99,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/fi/portfolio/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -112,7 +112,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/fi/about/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>0.80</priority>
     <xhtml:link
                rel="alternate"
@@ -125,7 +125,7 @@
 </url>
 <url>
   <loc>https://echoweb.fi/fi/contact/</loc>
-  <lastmod>2024-10-17T21:16:03+00:00</lastmod>
+  <lastmod>2024-10-18T16:09:04+02:00</lastmod>
   <priority>0.80</priority>
     <xhtml:link
                rel="alternate"

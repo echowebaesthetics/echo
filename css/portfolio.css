@@ -44,3 +44,7 @@ main {
     justify-content: flex-end;
     gap: 2px;
 }
+
+img {
+  width: 50px;
+}
